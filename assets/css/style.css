@@ -294,6 +294,11 @@ button{
     color: #fff;
     border: 1px solid #fff;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #00305b;
 }
 /* Change */
 .section_6+div{
