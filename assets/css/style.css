@@ -203,7 +203,7 @@ nav>article>ul>li{
     margin-bottom: 8px;
 }
 .section_6{
-    min-height: 97vh;
+    min-height: 100vh;
     background-color: #0b4e5c;
     background-image: url(../imgs/BuildingWindows.webp);
     background-repeat: no-repeat;
@@ -294,6 +294,11 @@ button{
     color: #fff;
     border: 1px solid #fff;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #00305b;
 }
 /* Change */
 .section_6+div{
@@ -345,3 +350,4 @@ footer>p{
     font-size: 18px;
     z-index: 999;
 }
+
